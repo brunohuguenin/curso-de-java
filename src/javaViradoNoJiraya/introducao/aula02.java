@@ -1,4 +1,4 @@
-package src.javaViradoNoJiraya;
+package src.javaViradoNoJiraya.introducao;
 
 // Tipos Primitivos
 public class aula02 {

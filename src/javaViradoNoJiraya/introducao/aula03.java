@@ -1,4 +1,4 @@
-package src.javaViradoNoJiraya;
+package src.javaViradoNoJiraya.introducao;
 
 public class aula03 {
     public static void main(String[] args) {
