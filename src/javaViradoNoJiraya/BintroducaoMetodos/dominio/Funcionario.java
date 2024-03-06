@@ -1,9 +1,10 @@
 package src.javaViradoNoJiraya.BintroducaoMetodos.dominio;
 
 public class Funcionario {
-    public  String nome;
-    public  int idade;
-    public  double[] salarios;
+    private  String nome;
+    private  int idade;
+    private  double[] salarios;
+    private double acumulador;
 
 
     public void imprimirDadosS() {
@@ -26,7 +27,7 @@ public class Funcionario {
         if (salarios == null) {
             return;
         }
-        double acumulador = 0;
+
         double resultado;
         for (int i = 0; i < salarios.length; i++) {
             acumulador += salarios[i];
@@ -34,4 +35,34 @@ public class Funcionario {
         resultado = acumulador / this.salarios.length;
         System.out.printf("A média dos salários durante o tempo que o funcionário esteve na empresa foi de R$%.2f\n", resultado);
     }
+    // alt insert
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public void setAcumulador(double acumulador) {
+        this.acumulador = acumulador;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
 }
