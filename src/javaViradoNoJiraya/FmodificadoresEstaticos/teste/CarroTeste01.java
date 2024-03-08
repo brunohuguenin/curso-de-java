@@ -1,0 +1,17 @@
+package src.javaViradoNoJiraya.FmodificadoresEstaticos.teste;
+
+import src.javaViradoNoJiraya.FmodificadoresEstaticos.domain.Carro;
+
+public class CarroTeste01 {
+    public static void main(String[] args) {
+//        Carro carro1 = new Carro("BMW", 280);
+//        Carro carro2 = new Carro("Mercedes", 275);
+//        Carro carro3 = new Carro("Audi", 290);
+        System.out.println(Carro.velocidadeLimite);
+        Carro.velocidadeLimite = 180;
+        System.out.println(Carro.velocidadeLimite);
+//        carro1.imprime();
+//        carro2.imprime();
+//        carro3.imprime();
+    }
+}
