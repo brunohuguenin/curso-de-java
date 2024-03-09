@@ -1,17 +1,10 @@
 package src.javaViradoNoJiraya.GassociaoresEstaticos.domain;
 
-public class Jogador {
+public class Time {
     private String nome;
     private Time time;
 
-    public void imprime() {
-        System.out.print(this.nome + " ");
-        if (time != null) {
-            System.out.println(time.getNome());
-        }
-    }
-
-    public Jogador(String nome) {
+    public Time(String nome) {
         this.nome = nome;
     }
 
@@ -31,4 +24,3 @@ public class Jogador {
         this.time = time;
     }
 }
-
