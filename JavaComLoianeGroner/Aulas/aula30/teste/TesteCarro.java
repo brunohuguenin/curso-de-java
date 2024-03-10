@@ -5,7 +5,7 @@ import JavaComLoianeGroner.Aulas.aula30.dominio.Carro;
 
 public class TesteCarro {
     public static void main(String[] args) {
-        Carro van = new Carro();
+        Carro van = new Carro("Chevrolet", "Ret", 8, 100, 10);
         van.marca = "Fiat";
         van.modelo = "Ducato";
         van.capCombustivel = 100;
