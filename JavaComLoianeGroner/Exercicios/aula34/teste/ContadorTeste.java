@@ -16,7 +16,7 @@ public class ContadorTeste {
       Contador.incrementa();
 
       imprimirValor();
-      
+
       Contador.zerar();
         Contador.incrementa();
         Contador.incrementa();
