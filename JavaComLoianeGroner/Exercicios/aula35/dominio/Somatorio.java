@@ -7,6 +7,7 @@ public class Somatorio {
 //            aux += i;
 //        }
 //        return aux;
+
         if (num == 1) {
             return 1;
         }
