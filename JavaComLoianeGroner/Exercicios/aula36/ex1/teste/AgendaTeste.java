@@ -1,7 +1,7 @@
-package JavaComLoianeGroner.Exercicios.aula36.teste;
+package JavaComLoianeGroner.Exercicios.aula36.ex1.teste;
 
-import JavaComLoianeGroner.Exercicios.aula36.dominio.Agenda;
-import JavaComLoianeGroner.Exercicios.aula36.dominio.Contato;
+import JavaComLoianeGroner.Exercicios.aula36.ex1.dominio.Agenda;
+import JavaComLoianeGroner.Exercicios.aula36.ex1.dominio.Contato;
 
 import java.util.Scanner;
 

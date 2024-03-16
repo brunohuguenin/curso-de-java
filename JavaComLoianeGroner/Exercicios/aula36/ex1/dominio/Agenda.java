@@ -1,4 +1,4 @@
-package JavaComLoianeGroner.Exercicios.aula36.dominio;
+package JavaComLoianeGroner.Exercicios.aula36.ex1.dominio;
 
 public class Agenda {
     private String nome;
