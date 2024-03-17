@@ -1,4 +1,4 @@
-package JavaComLoianeGroner.Aulas.aula41.dominio;
+package JavaComLoianeGroner.Aulas.aula42.dominio;
 
 public class Professor extends Pessoa {
 
