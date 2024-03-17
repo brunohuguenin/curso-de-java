@@ -1,6 +1,6 @@
 package JavaComLoianeGroner.Aulas.aula42.dominio;
 
-public class Professor extends Pessoa {
+public class Professor {
 
     private double salario;
     private String nomeCurso;
@@ -28,7 +28,7 @@ public class Professor extends Pessoa {
 
     public String obterEtiquetaEndereco() {
         String s = "Endereço do Professor: ";
-        s += super.getEndereco();
+       // s += super.getEndereco();
 
         return  s;
     }

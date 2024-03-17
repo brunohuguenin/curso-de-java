@@ -1,6 +1,8 @@
-package JavaComLoianeGroner.Aulas.aula42.dominio;
+package JavaComLoianeGroner.Aulas.aula43.dominio;
 
-public class Aluno  {
+import java.util.Arrays;
+
+public class Aluno {
 
     private String curso;
     private double[] notas;
@@ -45,8 +47,25 @@ public class Aluno  {
         return  s;
     }
 
-
     public  void imprimirEtiquetaEndereco() {
         System.out.println(this.obterEtiquetaEndereco());
+    }
+
+//    public String toString() {
+//        String s =  curso + "\n";
+//
+//        for (double nota : notas) {
+//            s += nota + " ";
+//        }
+//        return s;
+//    }
+
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "curso='" + curso + '\'' +
+                ", notas=" + Arrays.toString(notas) +
+                '}';
     }
 }

@@ -1,6 +1,6 @@
 package JavaComLoianeGroner.Aulas.aula42.dominio;
 
-public abstract class Pessoa {
+public final class Pessoa {
     private String nome;
     private String endereco;
     private String telefone;
@@ -54,8 +54,8 @@ public abstract class Pessoa {
         this.telefoneCelular = telefoneCelular;
     }
 
- //   public abstract String obterEtiquetaEndereco();
+   // public abstract String obterEtiquetaEndereco();
 
-    public abstract void imprimirEtiquetaEndereco();
+   // public abstract void imprimirEtiquetaEndereco();
 
 }
