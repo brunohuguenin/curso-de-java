@@ -1,4 +1,6 @@
-package JavaComLoianeGroner.Aulas.aula24;
+package JavaComLoianeGroner.Aulas.aula24.teste;
+
+import JavaComLoianeGroner.Aulas.aula24.dominio.Carro;
 
 public class TesteCarro {
     public static void main(String[] args) {
