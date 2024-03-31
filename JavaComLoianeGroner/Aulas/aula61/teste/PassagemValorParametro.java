@@ -10,16 +10,16 @@ public class PassagemValorParametro {
         System.out.println(contato);
         System.out.println(valor);
 
-//        testePassagemValorReferencia(valor, contato);
-//
-//        System.out.println(contato);
-//        System.out.println(valor);
-
-        // -----------------------------------------------------------
-        testePassagemValorReferencia2(valor, contato);
+        testePassagemValorReferencia(valor, contato);
 
         System.out.println(contato);
         System.out.println(valor);
+
+        // -----------------------------------------------------------
+//        testePassagemValorReferencia2(valor, contato);
+//
+//        System.out.println(contato);
+//        System.out.println(valor);
     }
 
     private static void testePassagemValorReferencia(int valor, Contato contato) {
